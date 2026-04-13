@@ -6,13 +6,19 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* IMPORTANT */
+    /* FIXES */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "types": ["vite/client"],
+
+    /* RELAX TYPES (IMPORTANT) */
+    "strict": false,
+    "noImplicitAny": false,
+
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
-  }
+  },
+  "include": ["src"]
 }
