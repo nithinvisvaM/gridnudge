@@ -5,16 +5,10 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-
-    /* FIXES */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "types": ["vite/client"],
-
-    /* RELAX TYPES (IMPORTANT) */
     "strict": false,
     "noImplicitAny": false,
 
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
